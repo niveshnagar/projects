@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+#scoreLine{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center
+}
+
+p{
+  display: inline;
+  color: white;
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+#player{
+  position: absolute;
+  height: 100px;
+}
+
+#coin{
+  position: absolute;
+  height: 50px;
+  left: 45%;
+}
+
+.stone{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+

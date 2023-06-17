@@ -15,15 +15,13 @@ body{
   width: 400px;
   height: 400px;
 }
+
 .btn{
+  margin: 5px;
   border: none;
   font-size: 40px;
   cursor: pointer;
 
-}
-
-.timer input:focus {
-  outline: none;
 }
 
 .btn:focus{
@@ -31,11 +29,20 @@ body{
 }
 
 .timer input{
-  display: block;
+  margin: 5px;
   width: 240px;
-  font-size: 90px;
+  font-size: 40px;
   border: none;
   text-align: center;
+}
+
+.timer input:focus {
+  outline: none;
+}
+
+#inputDuration::-webkit-outer-spin-button,
+#inputDuration::-webkit-inner-spin-button {
+  display: none;
 }
 
 .controls {

@@ -15,5 +15,8 @@ const timer = new Timer(inputDuration, playButton, pauseButton, {
     let correctOffset = -1 * perimeter * (1 - timeLeft / totalTime);
     circle.setAttribute("stroke-dashoffset", correctOffset);
   },
-  onComplete() {},
+  onComplete() {
+    circle.setAttribute("stroke-dashoffset", 0);
+    alert("Timer Complete");
+  },
 });

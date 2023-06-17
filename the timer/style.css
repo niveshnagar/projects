@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dial{
+  width: 400px;
+  height: 400px;
+}
+.btn{
+  border: none;
+  font-size: 40px;
+  cursor: pointer;
+
+}
+
+.timer input:focus {
+  outline: none;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.timer input{
+  display: block;
+  width: 240px;
+  font-size: 90px;
+  border: none;
+  text-align: center;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
